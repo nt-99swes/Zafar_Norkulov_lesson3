@@ -1,0 +1,38 @@
+.container {
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+.logo {
+  width: 30%;
+  height: 80px;
+  border: 1px solid #000;
+}
+.navbar-list {
+  width: 70%;
+  border: 1px solid #000;
+  height: 80px;
+  display: flex;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+}
+
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 400px){
+    header{
+        width: 100%;
+    }
+    .navbar-list{
+        display: none;
+    }
+}
